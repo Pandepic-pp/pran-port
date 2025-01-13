@@ -1,0 +1,82 @@
+.navbar,
+.footer {
+  background: linear-gradient(to right, #333333, #212121);
+  color: white;
+  gap: 50px;
+  border-radius: 50px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  transition: background 0.3s ease-in-out, transform 0.2s ease;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0; /* Sticks to the top */
+  z-index: 1000;
+}
+
+/* Navbar Items Hover Effect */
+li {
+  list-style-type: none;
+  transition: color 0.3s ease, transform 0.2s ease;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #a35c7a;
+}
+
+li:hover {
+  color: #a35c7a;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+/* Main Section */
+main {
+  background: linear-gradient(to bottom right, #d91656, #8d1046);
+  padding: 30px;
+  border-radius: 50px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+  /* transition: transform 0.3s ease; */
+}
+
+/* main:hover {
+    transform: scale(1.02);
+} */
+
+.contact li {
+  font-size: 16px;
+  font-weight: bold;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.contact li:hover {
+  color: #a35c7a;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.navbar img {
+  border: 3px solid white;
+  transition: border 0.3s ease, transform 0.2s ease;
+}
+
+.navbar img:hover {
+  border: 3px solid #a35c7a;
+  transform: rotate(10deg);
+}
+
+li a i {
+  font-size: 2rem; /* Adjust size as needed */
+  color: white; /* Add a custom color */
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+li a i:hover {
+  transform: scale(1.2); /* Scale effect on hover */
+  color: #d91656; /* Change color on hover */
+}
